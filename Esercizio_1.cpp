@@ -18,11 +18,13 @@ Input: [3, 5, 2, 8, 9, 4]
 
 using namespace std;
 
+// Function per stampare array
 int main() {
     int array[6] = {3, 5, 2, 8, 9, 4};
     int sommaPari = 0;
     int sommaDispari = 0;
     int size = sizeof(array) / sizeof(array[0]);
+
     for (int i = 0; i < size; i++) {
         if (array[i] % 2 == 0) {
             sommaPari += array[i];
@@ -31,8 +33,8 @@ int main() {
         }
 
     }
-    cout << "Somma degli elementi pari: " << sommaPari << endl;
-    cout << "Somma degli elementi dispari: " << sommaDispari << endl;
+    cout << "Somma degli elementi pari: " << sommaPari << endl;// Somma degli elementi pari: 14
+    cout << "Somma degli elementi dispari: " << sommaDispari << endl; // Somma degli elementi dispari: 17
 
 
     return 0;

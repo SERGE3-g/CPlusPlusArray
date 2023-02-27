@@ -13,7 +13,11 @@ stringa "cane" è formata da caratteri univoci
  */
 
 #include <iostream>
+
 using namespace std;
+
+
+//  funzioni per i Caratteri
 
 void stringa_crivere_un_programma(string &s) {
     int n = s.length();
