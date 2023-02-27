@@ -64,5 +64,6 @@ int main()
          cout << "La stringa non e' formata da caratteri univoci: " << str << endl;
      }
     return 0;
-     }
+
+}
 

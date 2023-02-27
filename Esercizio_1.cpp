@@ -13,7 +13,7 @@ Input: [3, 5, 2, 8, 9, 4]
  Output: Somma degli elementi pari: 14
  Somma degli elementi dispari: 17
  */
-
+#include <stdio.h>
 #include <iostream>
 
 using namespace std;
@@ -23,26 +23,17 @@ int main() {
     int sommaPari = 0;
     int sommaDispari = 0;
     int size = sizeof(array) / sizeof(array[0]);
-
     for (int i = 0; i < size; i++) {
         if (array[i] % 2 == 0) {
             sommaPari += array[i];
-            sommaDispari += array[i];
-            cout << sommaPari << " " << sommaDispari << endl;
         } else {
             sommaDispari += array[i];
         }
-        for (int j = i + 1; j < size; j++) {
-            if (array[j] % 2 == 0) {
-                sommaPari += array[j];
-                sommaDispari += array[j];
-                cout << sommaPari << " " << sommaDispari << endl;
-            }
 
-        }
-
-        cout << "Somma degli elementi pari: " << sommaPari << endl;
-        cout << "Somma degli elementi dispari: " << sommaDispari << endl;
-        return 0;
     }
+    cout << "Somma degli elementi pari: " << sommaPari << endl;
+    cout << "Somma degli elementi dispari: " << sommaDispari << endl;
+
+
+    return 0;
 }
