@@ -13,19 +13,19 @@ Input: [3, 5, 2, 8, 9, 4]
  Output: Somma degli elementi pari: 14
  Somma degli elementi dispari: 17
  */
-#include <stdio.h>
+
 #include <iostream>
 
 using namespace std;
 
 // Function per stampare array
 int main() {
-    int array[6] = {3, 5, 2, 8, 9, 4};
+    int array[10] = {1,2,3,4,5,6,7,8,9,10};
     int sommaPari = 0;
     int sommaDispari = 0;
     int size = sizeof(array) / sizeof(array[0]);
 
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < 10; i++) {
         if (array[i] % 2 == 0) {
             sommaPari += array[i];
         } else {
