@@ -1,0 +1,6 @@
+
+Guea     Guea    29 26 16  2
+Marius   Marius  20  23  30  23
+Valerio  Valerio 18  27  20  6
+Gato     Gato    15  19  23  2
+Marco    Marco   12  19  25  29
